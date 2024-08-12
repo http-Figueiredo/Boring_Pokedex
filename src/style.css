@@ -40,3 +40,39 @@ main {
     color: #444;
     text-transform: capitalize;
 }
+.form {
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.input__search {
+    width: 100%;
+    padding: 2%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 7vw, 1rem);
+    box-shadow: -2px 3px 0 #686868, -5px 6px 0 #383838;
+}
+
+.input__search::placeholder{
+    text-align: center;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 13%;
+    left: 14.3%;
+    width: 64%;
+    display: flex;
+    gap: 5%;
+}
+
+.button {
+    width: 50%;
+    padding: 3%;
+}
